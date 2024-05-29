@@ -1,0 +1,30 @@
+<html>
+<head><style>
+div.transbox {
+  margin-top: 250px;
+  margin-left: 500px;
+margin-right: 500px;
+
+  background-color: #ffffff;
+  border: 2px solid black;
+  opacity: 0.6;
+}
+label{font-weight:bold}
+body
+{background-image:url(bg1.jpg)}
+</style>
+<meta charset="ISO-8859-1">
+<title>Login page</title>
+</head>
+<body><center> <div class="transbox">
+<form action="http://localhost:8080/jdbc/jsp/login.jsp" method="post" ><br>
+<label>Username : </label><input type="text" name="user" required/>
+<br><br>
+<label>Password : </label><input type="text" name="password" required/>
+<br><br>
+<input type="submit">
+</form>
+<label>New User ? </label>
+<a href="register.html">Sign up here</a></div></center>
+</body>
+</html>
